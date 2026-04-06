@@ -160,25 +160,6 @@ Mobile: Stacked layout with hamburger menu
 
 Breakpoints: Tailwind default (sm: 640px, md: 768px, lg: 1024px)
 =======
-HTTPS: https://localhost:7096
-
-HTTP: http://localhost:5075
-
-Swagger UI: https://localhost:7096/swagger
-
-📚 API Endpoints
-Authentication (No token required)
-Method	Endpoint	Description
-POST	/api/Auth/login	User login
-Student Management (Bearer token required)
-
-Method	    Endpoint	        Description
-GET	      /api/Students	        Get all students
-GET	      /api/Students/{id}	Get student by ID
-POST	 /api/Students	        Create new student
-PUT	     /api/Students/{id}  	Update student
-DELETE	/api/Students/{id}	    Delete student
-
 
 🔐 Authentication
 Default Credentials
